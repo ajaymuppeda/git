@@ -1,6 +1,5 @@
   # GIT
-  ## clone
-   --->  Clone a repository into a new directory  
+  clone  --->  Clone a repository into a new directory  
 
    init   --->   Create an empty Git repository or reinitialize an existing one   
 
