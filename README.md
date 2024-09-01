@@ -1,5 +1,10 @@
-  # GIT
-  clone  --->  Clone a repository into a new directory  
+# GIT  
+## 1. clone  
+**clone**  --->  Clone a repository into a new directory  
+Example Command:  
+```sh
+git clone <repo-uri>
+```
 
    init   --->   Create an empty Git repository or reinitialize an existing one   
 
