@@ -1,7 +1,7 @@
 # GIT  
 ## 1. clone  
 **clone**  --->  Clone a repository into a new directory  
-Example Command:  
+*Example Command*:  
 ```sh
 git clone <repo-uri>
 ```
