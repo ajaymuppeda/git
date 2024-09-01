@@ -36,7 +36,9 @@ git clone <repo-uri>
 
    **commit**   --->   Record changes to the repository  
 *Example Command*:  
-
+```sh
+git commit -m "message"
+```
    **merge**   --->    Join two or more development histories together  
 
    **rebase**   --->   Reapply commits on top of another base tip   
