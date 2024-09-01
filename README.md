@@ -5,19 +5,41 @@
 ```sh
 git clone <repo-uri>
 ```
-## 2. init
-**init**   --->   Create an empty Git repository or reinitialize an existing one   
-*Example Command*:  
-
-   **add**  --->    Add file contents to the index  
+## 2. add
+**add**  --->    Add file contents to the index  
    *Example Command*:   
-   **mv**   --->    Move or rename a file, a directory, or a symlink  
-   *Example Command*:  
-  **restore** --->  Restore working tree files  
-  *Example Command*:  
-  **rm**     --->  Remove files from the working tree and from the index  
-  *Example Command*:  
+   ```sh
+git add ."add to git"
+```
+## 3. commit
+ **commit**   --->   Record changes to the repository  
+*Example Command*:  
+```sh
+git commit -m "message"
+```
+## 4. pull
+**pull**    --->    Fetch from and integrate with another repository or a local branch   
+*Example Command*:  
+```sh
+git pull <pull from git to pc windows>
+```
+## 5. push
+   **push**    --->    Update remote refs along with associated objects  
+*Example Command*:  
+```sh
+git push origin main <push to git>
+```
 
+**init**   --->   Create an empty Git repository or reinitialize an existing one   
+
+
+   
+   **mv**   --->    Move or rename a file, a directory, or a symlink  
+  
+  **restore** --->  Restore working tree files  
+ 
+  **rm**     --->  Remove files from the working tree and from the index  
+ 
 
    **bisect**  --->  Use binary search to find the commit that introduced a bug    
 
@@ -34,11 +56,7 @@ git clone <repo-uri>
   
    **branch**   --->   List, create, or delete branches  
 
-   **commit**   --->   Record changes to the repository  
-*Example Command*:  
-```sh
-git commit -m "message"
-```
+  
    **merge**   --->    Join two or more development histories together  
 
    **rebase**   --->   Reapply commits on top of another base tip   
@@ -51,15 +69,6 @@ git commit -m "message"
 
 
    **fetch**   --->    Download objects and refs from another repository  
-*Example Command*:  
-   **pull**    --->    Fetch from and integrate with another repository or a local branch   
-*Example Command*:  
-```sh
-git pull <pull from git to pc windows>
-```
-   **push**    --->    Update remote refs along with associated objects  
-*Example Command*:  
-```sh
-git push origin main <push to git>
-```
+
+   
 
