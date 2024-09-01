@@ -54,6 +54,12 @@ git commit -m "message"
 *Example Command*:  
    **pull**    --->    Fetch from and integrate with another repository or a local branch   
 *Example Command*:  
+```sh
+git pull <pull from git to pc windows>
+```
    **push**    --->    Update remote refs along with associated objects  
 *Example Command*:  
+```sh
+git push origin main <push to git>
+```
 
